@@ -162,7 +162,7 @@ int main()
         }
 
         delete [] board; // Free heap memory
-    } while(choice != 'n' && choice != 'N');
+    } while(choice != 'n' && choice != 'N'); // Quit
 
     std::cout << "\nQuitting...\n"; // quit message
     return 0;
